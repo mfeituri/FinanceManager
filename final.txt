@@ -1,0 +1,28 @@
+TITLE: Mohamed Feituri, 
+CSCI 200 Section D
+ Finance Manager Application
+
+PROBLEM DESCRIPTION: The Finance Manager Application is designed to assist in organizing and managing financial transactions. 
+It allows users to input, store, and analyze transactions, generate reports, and perform financial calculations.
+
+PROGRAM DOCUMENTATION: To run the Finance Manager Application, compile the source code using the Makefile by running the command make in the terminal. 
+After successful compilation, run the generated FinanceManager executable to launch the program. 
+The program provides a menu-based interface for users to navigate through different functionalities, such as adding transactions, 
+viewing reports, and performing financial analyses. The program does not require any additional libraries or dependencies.
+
+CLASS DESCRIPTION: The custom class I created for this project is TransactionManager, which encapsulates data and functionality related to managing financial transactions. 
+The class includes private data members such as a list of transactions, methods for adding and retrieving transactions, generating reports, and performing 
+financial calculations. Creating the TransactionManager class helped me structure the program by centralizing transaction-related operations into a single class.
+
+LIST DATA STRUCTURE: My program uses a linked list data structure to store and manage transactions efficiently. I chose a linked list for its dynamic memory
+ allocation capabilities, allowing for easy insertion and deletion of transactions without requiring fixed-size arrays or manual memory management. 
+ 
+
+FILE I/O: File I/O is incorporated into my application to read and write transaction data from/to external files. 
+This function lets users to save transaction records and load previously saved data into the program.
+ File I/O was necessary to provide users with the ability to store transaction history across program sessions and to facilitate data backup and recovery.
+
+REFLECTIONS: Throughout this project, I gained valuable experience in designing and implementing a complex software application from scratch. 
+I encountered challenges in structuring the program architecture, managing data, and implementing file handling functionalities. 
+If I were to do another project, I would focus on refining the user interface,
+ adding more advanced financial analysis features, and implementing data encryption for enhanced security.
